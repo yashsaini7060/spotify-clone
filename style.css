@@ -457,7 +457,9 @@ margin-right: 10px;
 
 
 @media screen and (max-width:500px) {
-
+  .content{
+    padding: 1rem;
+  }
   /* html{
       font-size: 60%;
     } */
@@ -466,10 +468,11 @@ margin-right: 10px;
     }
     .playlists{
       gap: 1rem;
+      justify-content: space-evenly;
     }
 
     .playlist{
-      width: 20rem;
+      width: 18rem;
     }
     .sound_controls{
       width: auto;
@@ -477,4 +480,17 @@ margin-right: 10px;
     .hidden500{
       display: none;
     }
+    .song_data{
+      margin: 0rem 1rem ;
+    }
+}
+
+@media screen and (max-width:410px) {
+
+  .content_playlists, .content_shows{
+    text-align: center;
+  }
+  .playlist{
+    width: 15rem;
+  }
 }
